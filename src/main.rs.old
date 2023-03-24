@@ -1,0 +1,50 @@
+// mod geometry;
+
+// use std::vec;
+
+// use bevy::prelude::*;
+// use bevy::render::mesh::{self, PrimitiveTopology};
+// use geometry::voxel::{spawn_voxels, MeshFace, iterate_face_edges, Voxel, VoxelFaceDirection, VoxelChunk, generate_chunk_mesh};
+
+// fn main() {
+//   let chunk = VoxelChunk {
+//     size: Vec3 { x: 2., y: 2., z: 1. },
+//     voxels: vec![
+//       vec![
+//         vec![Voxel::new(Vec3::new(0., 0., 0.), true), Voxel::new(Vec3::new(1., 0., 0.), true)],
+//         vec![Voxel::new(Vec3::new(0., 1., 0.), true), Voxel::new(Vec3::new(1., 1., 0.), true)],
+//       ],
+//       vec![
+//         vec![Voxel::new(Vec3::new(0., 0., 1.), true), Voxel::new(Vec3::new(1., 0., 1.), true)],
+//         vec![Voxel::new(Vec3::new(0., 1., 1.), true), Voxel::new(Vec3::new(1., 1., 1.), true)],
+//       ],
+//     ]
+//   };
+
+//   let faces = generate_chunk_mesh(&chunk);
+
+//   for face in faces {
+//     println!("Face: {:?}", face);
+//   }
+// }
+
+// fn setup(
+//   mut commands: Commands,
+//   mut meshes: ResMut<Assets<Mesh>>,
+//   mut materials: ResMut<Assets<StandardMaterial>>,
+// ) {
+//   commands.spawn(PointLightBundle {
+//     point_light: PointLight {
+//       intensity: 1500.0,
+//       shadows_enabled: true,
+//       ..default()
+//     },
+//     transform: Transform::from_xyz(4.0, 8.0, 4.0),
+//     ..default()
+//   });
+
+//   commands.spawn(Camera3dBundle {
+//     transform: Transform::from_xyz(-2.0, 2.5, 5.0).looking_at(Vec3::new(0.0, 2.0, 0.0), Vec3::Y),
+//     ..default()
+//   });
+// }

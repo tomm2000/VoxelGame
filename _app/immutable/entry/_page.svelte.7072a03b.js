@@ -1,0 +1,3 @@
+import{S as h,i as v,s as u,k as o,q as f,l as d,m,h as c,r as p,n as l,b as x,G as _,H as r,o as y}from"../chunks/index.847936d9.js";function g(i){let t,a,s;return{c(){t=o("div"),a=o("canvas"),s=f(`
+  test`),this.h()},l(e){t=d(e,"DIV",{class:!0});var n=m(t);a=d(n,"CANVAS",{id:!0,class:!0}),m(a).forEach(c),s=p(n,`
+  test`),n.forEach(c),this.h()},h(){l(a,"id","bevy-canvas"),l(a,"class","svelte-xtwmcz"),l(t,"class","main svelte-xtwmcz")},m(e,n){x(e,t,n),_(t,a),_(t,s)},p:r,i:r,o:r,d(e){e&&c(t)}}}function S(i,t,a){let{data:s}=t;return y(()=>{s.init()}),i.$$set=e=>{"data"in e&&a(0,s=e.data)},[s]}class q extends h{constructor(t){super(),v(this,t,S,g,u,{data:0})}}export{q as default};

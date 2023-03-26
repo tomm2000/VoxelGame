@@ -2,20 +2,20 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./VoxelGame/favicon.png" />
+		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./VoxelGame/_app/immutable/assets/_page.e599d090.css" rel="stylesheet">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/entry/start.0abfe909.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/chunks/index.847936d9.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/chunks/singletons.1178392d.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/entry/app.d03d4e98.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/entry/layout.svelte.b0368388.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/entry/_layout.ts.984db11e.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/entry/_page.svelte.7072a03b.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/entry/_page.ts.5d426551.js">
-		<link rel="modulepreload" href="./VoxelGame/_app/immutable/chunks/_page.7e3e6c50.js">
+		<link href="./_app/immutable/assets/_page.e599d090.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.1bf37d75.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.847936d9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.9aa1562d.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.78c290b1.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/layout.svelte.b0368388.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.984db11e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.7072a03b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.ts.5d426551.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_page.7e3e6c50.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -29,20 +29,19 @@
 			
 			<script>
 				{
-					__sveltekit_zn62vw = {
+					__sveltekit_5hagre = {
 						env: {},
-						assets: "/VoxelGame",
-						base: new URL("./VoxelGame", location).pathname,
+						base: new URL(".", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
 					};
 
 					const data = [null,null];
 
 					Promise.all([
-						import("./VoxelGame/_app/immutable/entry/start.0abfe909.js"),
-						import("./VoxelGame/_app/immutable/entry/app.d03d4e98.js")
+						import("./_app/immutable/entry/start.1bf37d75.js"),
+						import("./_app/immutable/entry/app.78c290b1.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_zn62vw.element, {
+						kit.start(app, __sveltekit_5hagre.element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
